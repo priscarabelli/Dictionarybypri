@@ -16,5 +16,4 @@ export default function Synonyms(props){
         return null; 
     }
   
-
 }; 

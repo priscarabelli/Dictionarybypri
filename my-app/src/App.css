@@ -1,8 +1,27 @@
+body{
+    padding: 30px;
+}
 .App{
+    background-color: black;
     max-width: 600px;
     margin:  0 auto;
-
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 6px 4px;
+    border: 1px solid #ddd;
 }
 footer{
     margin: 20px;
+    color: white;
+    text-align: center;
+font-family: 'Klee One',
+        cursive;
+    font-size: 16px;
+}
+footer a{
+    text-decoration: none;
 }
