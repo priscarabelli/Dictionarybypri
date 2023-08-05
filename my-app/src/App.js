@@ -7,10 +7,10 @@ function App() {
     <div className="App">
       <div className='container'>
       <header className="App-header">
-  <h1>Dictionary </h1>
+  <h1>Dictionary</h1>
       </header>
       <main>
-        <Dictionary defaultWord="profound"/>
+        <Dictionary defaultWord="sunrise"/>
       </main>
       <footer>
         Coded by Pri Scarabelli 

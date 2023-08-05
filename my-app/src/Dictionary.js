@@ -34,6 +34,7 @@ function load(){
 if (loaded){
 return( <div className="Dictionary">
     <section>
+<h3 className="h3-form">What word you searching for? </h3>
     <form onSubmit={handleSubmit}>
         <div className="input-box">
         <input type="search" onChange={handlekeywordChange} placeholder="Enter a word"/>
