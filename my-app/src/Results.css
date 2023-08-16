@@ -5,3 +5,10 @@ font-size: 50px;
   
 }
 
+@media (max-width:760px) {
+    h2{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+}

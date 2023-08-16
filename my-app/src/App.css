@@ -28,3 +28,11 @@ font-family: 'Klee One',
 footer a{
     text-decoration: none;
 }
+@media (max-width:760px) {
+    
+body{
+    padding: 15px;
+}
+    
+    
+}

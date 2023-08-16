@@ -26,7 +26,7 @@ let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${Keyword}`;
 axios.get(apiUrl).then(handleDictionaryResponse);   
 
 let pexelsApiKey = "nyntxpPkp3IRf1bNtMcjgt6kTGtkrffjP5zQnhFqRE9FG89msx50Zq7M";
-let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${Keyword}&per_page=6`;
+let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${Keyword}&per_page=3`;
 axios
   .get(pexelsApiUrl, {
     headers: { Authorization: `${pexelsApiKey}` },
@@ -59,8 +59,9 @@ return( <div className="Dictionary">
     </form>
     <div className="hint">Suggested words: profound, meaningful, warmth, nature...</div>
      </section>
+     <Photos photos={photos}/>
     <Results results={results}/>
-    <Photos photos={photos}/>
+    
     </div> 
    
     ); 
